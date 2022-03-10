@@ -26,9 +26,9 @@ function AppHeader() {
         onChange={(e) => updateFilter(e)}
         value={filterStatus}
       >
-        <option value="all">All</option>
-        <option value="incomplete">Incomplete</option>
-        <option value="complete">Completed</option>
+        <option value="all">Todas</option>
+        <option value="incomplete">Incompleta</option>
+        <option value="complete">Completa</option>
       </SelectButton>
       <TodoModal type="add" modalOpen={modalOpen} setModalOpen={setModalOpen} />
     </div>
